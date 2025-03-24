@@ -22,7 +22,7 @@
     <!-- TODO link rel="api-catalog" type="application/linkset+json" href="https://dummyrepository.org/.well-known/api-catalog"/ -->
 
     <script type="application/ld+json">
-        {
+      {
             "@context": {
                 "dcat": "http://www.w3.org/ns/dcat#",
                 "dct": "http://purl.org/dc/terms/",
@@ -39,21 +39,21 @@
                 "dcat:Catalog",
                 "foaf:Project"
             ],
-            "@id": "https://repository.dri.ie",
-            "foaf:homepage": "https://repository.dri.ie",
-            "dct:identifier": "https://repository.dri.ie",
-            "foaf:name": "Digital Repository of Ireland",
-            "dct:title": "Digital Repository of Ireland",
-            "dct:description": "The Digital Repository of Ireland (DRI) is a certified trustworthy digital repository that provides long-term preservation and access to Ireland’s social and cultural digital data.",
-            "dcat:contactPoint": "https://dri.ie/contact-2",
+            "@id": "https://dummyrepository.org",
+            "foaf:homepage": "https://dummyrepository.org",
+            "dct:identifier": "https://dummyrepository.org",
+            "foaf:name": "Dummy Data Repository",
+            "dct:title": "Dummy Data Repository",
+            "dct:description": "Dummy Data Repository Description",
+            "dcat:contactPoint": "https://dummyrepository.org/contact",
             "dcat:theme": [
                 "generic"
             ],
-            "dct:accessRights": "open access, restricted access",
-            "dct:license": "https://doi.org/10.7486/DRI.v4066146t",
+            "dct:accessRights": "open access",
+            "dct:license": "https://creativecommons.org/licenses/by/4.0/",
             "dqv:hasQualityAnnotation": {
                 "@type": "dqv:QualityCertificate",
-                "oa:hasTarget": "https://repository.dri.ie",
+                "oa:hasTarget": "https://dummyrepository.org",
                 "oa:hasBody": "https://amt.coretrustseal.org/certificates",
                 "oa:motivatedBy": "dqv:qualityAssessment",
                 "dct:creator": "CoreTrustSeal"
@@ -61,19 +61,11 @@
             "dct:conformsTo": [
                 {
                     "@type": "dct:Policy",
-                    "@id": "https://doi.org/10.7486/DRI.1544r4085"
-                },
-	            {
-                    "@type": "dct:Policy",
-                    "@id": "https://doi.org/10.7486/DRI.0287ds28f"
-                },
-	            {
-                    "@type": "dct:Policy",
-                    "@id": "https://doi.org/10.7486/DRI.0861gj96v"
+                    "@id": "https://dummyrepository.org/policies/termsofdeposit.html"
                 },
                 {
                     "@type": "premis:PreservationPolicy",
-                    "@id": "https://doi.org/10.7486/DRI.2r377c523",
+                    "@id": "https://dummyrepository.org/policies/preservationpolicy.html",
                     "rdfs:seeAlso": "https://w3id.org/fair/fip/latest/Metadata-preservation-policy"
                 },
                 {
@@ -92,17 +84,31 @@
                     "foaf:Agent",
                     "vcard:Kind"
                 ],
-                "foaf:name": "Digital Repository of Ireland",
-                "vcard:fn": "Digital Repository of Ireland",
-                "vcard:country-name": "Ireland"
+                "foaf:name": "Dummy Publisher",
+                "vcard:fn": "Dummy Publisher",
+                "vcard:country-name": "Germany"
             },
             "dct:language": "eng",
-	        "dct:language": "gle"
             "dcat:service": [
                 {
                     "@type": "dcat:DataService",
                     "dcat:endpointURL": "https://dummyrepository.org/.well-known/api-catalog",
                     "dct:conformsTo": "https://signposting.org/FAIRiCat/"
+                },
+                {
+                    "@type": "dcat:DataService",
+                    "dcat:endpointURL": "https://dummyrepository.org/services/atom.xml",
+                    "dct:conformsTo": "https://www.rssboard.org/rss-specification"
+                },
+                {
+                    "@type": "dcat:DataService",
+                    "dcat:endpointURL": "https://dummyrepository.org/services/static_oai.xml",
+                    "dct:conformsTo": "https://www.openarchives.org/OAI/2.0/guidelines-static-repository.htm"
+                },
+                {
+                    "@type": "dcat:DataService",
+                    "dcat:endpointURL": "https://dummyrepository.org/sitemap.xml",
+                    "dct:conformsTo": "https://www.sitemaps.org/protocol.html"
                 }
             ]
         }
