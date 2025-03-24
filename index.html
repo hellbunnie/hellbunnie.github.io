@@ -1,0 +1,1073 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+
+    <!-- Mobile viewport optimization h5bp.com/ad -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Digital Repository of Ireland">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <meta http-equiv="cleartype" content="on">
+    <title>Digital Repository of Ireland Search Results</title>
+
+    <link href="http://localhost:3000/catalog/opensearch.xml" title="Digital Repository of Ireland" type="application/opensearchdescription+xml" rel="search"/>
+
+    <!-- FAIR-IMPACT 5.4 prototype https://github.com/FAIRsFAIR/5_4_prototype -->
+    <!-- TODO link rel="describedby" type="application/ld+json" href="catalog_metadata_schemaorg.json" -->
+    <!-- TODO link rel="api-catalog" type="application/linkset+json" href="https://dummyrepository.org/.well-known/api-catalog"/ -->
+
+    <script type="application/ld+json">
+        {
+            "@context": {
+                "dcat": "http://www.w3.org/ns/dcat#",
+                "dct": "http://purl.org/dc/terms/",
+                "foaf": "http://xmlns.com/foaf/0.1/",
+                "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+                "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+                "vcard": "http://www.w3.org/2006/vcard/ns#",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "dqv": "http://www.w3.org/ns/dqv#",
+                "oa": "http://www.w3.org/ns/oa#",
+                "premis" : "http://www.loc.gov/premis/rdf/v3/"
+            },
+            "@type": [
+                "dcat:Catalog",
+                "foaf:Project"
+            ],
+            "@id": "https://repository.dri.ie",
+            "foaf:homepage": "https://repository.dri.ie",
+            "dct:identifier": "https://repository.dri.ie",
+            "foaf:name": "Digital Repository of Ireland",
+            "dct:title": "Digital Repository of Ireland",
+            "dct:description": "The Digital Repository of Ireland (DRI) is a certified trustworthy digital repository that provides long-term preservation and access to Ireland’s social and cultural digital data.",
+            "dcat:contactPoint": "https://dri.ie/contact-2",
+            "dcat:theme": [
+                "generic"
+            ],
+            "dct:accessRights": "open access, restricted access",
+            "dct:license": "https://doi.org/10.7486/DRI.v4066146t",
+            "dqv:hasQualityAnnotation": {
+                "@type": "dqv:QualityCertificate",
+                "oa:hasTarget": "https://repository.dri.ie",
+                "oa:hasBody": "https://amt.coretrustseal.org/certificates",
+                "oa:motivatedBy": "dqv:qualityAssessment",
+                "dct:creator": "CoreTrustSeal"
+            },
+            "dct:conformsTo": [
+                {
+                    "@type": "dct:Policy",
+                    "@id": "https://doi.org/10.7486/DRI.1544r4085"
+                },
+	            {
+                    "@type": "dct:Policy",
+                    "@id": "https://doi.org/10.7486/DRI.0287ds28f"
+                },
+	            {
+                    "@type": "dct:Policy",
+                    "@id": "https://doi.org/10.7486/DRI.0861gj96v"
+                },
+                {
+                    "@type": "premis:PreservationPolicy",
+                    "@id": "https://doi.org/10.7486/DRI.2r377c523",
+                    "rdfs:seeAlso": "https://w3id.org/fair/fip/latest/Metadata-preservation-policy"
+                },
+                {
+                    "@type": "dct:Standard",
+                    "@id": "http://www.dcc.ac.uk/resources/metadata-standards/dcat-data-catalog-vocabulary",
+                    "rdfs:seeAlso": "https://w3id.org/fair/fip/latest/Metadata-schema"
+                },
+                {
+                    "@type": "dct:Standard",
+                    "@id": "https://w3id.org",
+                    "rdfs:seeAlso": "https://w3id.org/fair/fip/latest/Identifier-service"
+                }
+            ],
+            "dct:publisher": {
+                "@type": [
+                    "foaf:Agent",
+                    "vcard:Kind"
+                ],
+                "foaf:name": "Digital Repository of Ireland",
+                "vcard:fn": "Digital Repository of Ireland",
+                "vcard:country-name": "Ireland"
+            },
+            "dct:language": "eng",
+	        "dct:language": "gle"
+            "dcat:service": [
+                {
+                    "@type": "dcat:DataService",
+                    "dcat:endpointURL": "https://dummyrepository.org/.well-known/api-catalog",
+                    "dct:conformsTo": "https://signposting.org/FAIRiCat/"
+                }
+            ]
+        }
+
+    </script>
+
+
+      <script type="text/plain"
+        data-category="analytics"
+        data-service="Google Analytics" async src="https://www.googletagmanager.com/gtag/js?id="></script>
+      <script
+        type="text/plain"
+        data-category="analytics"
+        data-service="Google Analytics">
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '', {
+            'cookie_flags': 'max-age=7200;secure;samesite=none',
+            'anonymize_ip': true
+          });
+      </script>
+
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-db7a06b2ec29fd2ef66df318156ea26fab68b35b2574aa830b6a01c075d34d28.ico" />
+    <link rel="stylesheet" href="/assets/dri/dri_layouts.self-c1b5d9ffc356ea28cc759b968a4dbfd7c24a28fd02d06b77f8922c895906c272.css?body=1" media="all" />
+    <link rel="stylesheet" href="/assets/dri/dri_print.self-f232cd8fa8c5173bdff580e4705c67c5663346781112f35fb2504dc183d403ef.css?body=1" media="print" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+    <script src="/assets/jquery3.self-cbcb1f1497554e07e08a1a99e549bf33b1fe31225841f585aaa72043b3b08580.js?body=1"></script>
+<script src="/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1"></script>
+<script src="/assets/jquery.dataTables.self-cdc7ad4021c04e599bdbf36c248d9deca179f0e42296444d21f15a0143c501d7.js?body=1"></script>
+<script src="/assets/datatables.self-86ef8f35868a5d17507a4d748b51b44f271e9a0b18a14d310714bce1e4afd567.js?body=1"></script>
+<script src="/assets/jquery-ui/version.self-cbf14562f913ff0bd541696c9f158b7aa29be77c2caa1caae4ecc1f7ae7e184b.js?body=1"></script>
+<script src="/assets/jquery-ui/ie.self-aca55f6ee34d3f7b15129a28c10424d72dfa52187d1cf76647f4150798d39cf4.js?body=1"></script>
+<script src="/assets/jquery-ui/widget.self-b30e671887d3e379fddf628040717ecb3e9aaa30e3a624c260a3adfa9cff6ffb.js?body=1"></script>
+<script src="/assets/jquery-ui/widgets/mouse.self-f800171e3ce3438a94f6a67ad9d0c4bbeb38f7f89409a15fa866ca815bdc1182.js?body=1"></script>
+<script src="/assets/jquery-ui/data.self-cd04c120d1af293cbaeb2bfabd88d31fb1746e2a1d4e7183e634dcf1bc8febc5.js?body=1"></script>
+<script src="/assets/jquery-ui/plugin.self-ce37ac531a53f6c40ca142824630afd451f6dac0f185ca9c7d5ddb3c48b176bc.js?body=1"></script>
+<script src="/assets/jquery-ui/safe-active-element.self-4aaff3a668dfa29711dbde03278cc323acb419d6c751e743ac6cf4a3b2823e76.js?body=1"></script>
+<script src="/assets/jquery-ui/safe-blur.self-52f2f547abe379a3c9938c731568ac4cbbaaf11fa1fc877f2ac3cf379b9d455a.js?body=1"></script>
+<script src="/assets/jquery-ui/scroll-parent.self-3f08fe9682e7f0dd408eb3fa007ef669c1ad50f8dd344a37adf7cfe062c91598.js?body=1"></script>
+<script src="/assets/jquery-ui/widgets/draggable.self-387b2ec06e1514b8a01854396f56786db79593a367337cd0c41d6da3c4ea9b40.js?body=1"></script>
+<script src="/assets/jquery-ui/disable-selection.self-c1fbb539984641347a24294eb5e46d850484d8462b8b41ab055f362ff9cc6cee.js?body=1"></script>
+<script src="/assets/jquery-ui/widgets/resizable.self-9142d2c41c6d845322c79562bb6cbc303b268933689091637fb27727166503d5.js?body=1"></script>
+<script src="/assets/jquery-ui/keycode.self-93e508c539daa6582d56e79d7073f98802a19a8ebf5373947df08c5fb3a5f7c8.js?body=1"></script>
+<script src="/assets/jquery-ui/position.self-ac97d48a0eae3e31414c331543b7fd979fd076140cceb35259829c159f47c8ef.js?body=1"></script>
+<script src="/assets/jquery-ui/unique-id.self-807f4b8441c759d670432326f8e1d9dfc0b9340a1a51565c430443bf548e0d35.js?body=1"></script>
+<script src="/assets/jquery-ui/widgets/menu.self-a315f97f52692de6f5184aececeb3189d1d56780993ca2dc79f8e7701ecfbdad.js?body=1"></script>
+<script src="/assets/jquery-ui/widgets/autocomplete.self-b9b9041086c252dbaccedbc0eb90123cf469d5201619a728fb105c8fa5f48a65.js?body=1"></script>
+<script src="/assets/jquery-ui/widgets/sortable.self-9cb07d96553f6a95674dd72a29f630fe7f300378436182b8fb774dc0ac7a4424.js?body=1"></script>
+<script src="/assets/clipboard.self-421c928550de66ffdd573b2091e8d374a5c3e91df53c4b65a5eedf132a4786ed.js?body=1"></script>
+<script src="/assets/i18n.self-b34ba0d3e2681623cbc3208073f6389a3f84f016c9e94dc133bc1f2cbdcdc356.js?body=1"></script>
+<script src="/assets/i18n/shims.self-584ef5c415d6f26ae16274c7ced148b86f3ad757e629d5f0c545eebd28d812fa.js?body=1"></script>
+<script src="/assets/i18n/filtered.self-5319481278632d21de94214020628efb0378d33ab0c8c9a15e62e5ef4e8d7012.js?body=1"></script>
+<script src="/assets/i18n/translations.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1"></script>
+<script src="/assets/leaflet.self-3bea5ae78cc94f079298f85c483080ed7308e9a8633a1d6890342555133b5865.js?body=1"></script>
+<script src="/assets/leaflet.markercluster.self-3309f81771fdfbf08851058fec0141f75147385a93d54c36e7e1abc11ee869cf.js?body=1"></script>
+<script src="/assets/blacklight-maps/blacklight-maps-browse.self-110c3d34c4db2a8b6ee63134eaccd184b4ad94c299296fc3d321ea6a67841601.js?body=1"></script>
+<script src="/assets/jquery.iframe-transport.self-6175c8b511a49add00448f4675ec3ad25cc161e7825a79f45bcee1c9f81a7b87.js?body=1"></script>
+<script src="/assets/jquery.remotipart.self-1b90ddc34ebd75d3e598f3c46bfd3a0a8275ef41d25b898c806b16634b0a7efa.js?body=1"></script>
+<script src="/assets/js.cookie.self-d998fdf85439dfbfa4de9b5249751ff576922278cd1892d8c82e863246481950.js?body=1"></script>
+<script src="/assets/jquery.validate.self-d1f395f2e9f8ad36b8f986183e6b2588bad6bf4f1eb6c6d0cf6295f64e91c713.js?body=1"></script>
+<script src="/assets/jquery.validate-additional-methods.self-c7917bc9292ccb68e9afc696b1451d729c9c282801b9b261c45a32b7015451db.js?body=1"></script>
+<script src="/assets/popper.self-87fc176bb54a8b0633ccd09546f8d5f5ef8a594451dede53a1b503e7548d1e2b.js?body=1"></script>
+<script src="/assets/bootstrap.self-f1b23f5e3500b5e96ff6463bf537b6573558bfe6bf7f2f88bac63d667fba670d.js?body=1"></script>
+<script src="/assets/jquery.bootstrap-duallistbox.self-a76b6fd088f7f4e9dc65f2d3fe08d85821545365816c687dbbad83b775a97064.js?body=1"></script>
+<script src="/assets/jquery.readyselector.self-e8333e4cf02799551960a3d4743eee34a3486889bfb9339716ea7deafb7b5224.js?body=1"></script>
+<script src="/assets/blacklight/blacklight.self-d89f09e6ae12e6728870e595a05feb9f35408b65a6e0ae4a61b7da36e9791376.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/jquery.xmleditor.self-ff6144c80c21cf74be5436575b6b5fee89433ee79c83e6f1215b14e097eddd91.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/vendor/ace/src-min/ace.self-264b56343e1c411da2e6502a068e61da6fa65bdbc7ab4d886f9bb41c8ecf624b.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/vendor/ace/src-min/keybinding-emacs.self-d5ff8f5684098f5d920901152c5df15ace525b1dcf44e9a15f2d1d4c1b3cd0f5.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/vendor/ace/src-min/keybinding-vim.self-d25e8280ed6ba1af22a62301f3e44213800d16a69a82c8605f84d86f15651c27.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/vendor/ace/src-min/mode-xml.self-7cdad6613ce222abf92d00450a86adfb6dc7a202de81a6fa33540f5a28964baf.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/vendor/ace/src-min/theme-textmate.self-fcd72c358da9b3b485faa6c133ab36a686493cde96384cb4e533a8a642072c9e.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/vendor/cycle.self-3c92ac9b7cfe28853e32a3fbedf00cb45c71f6d617463c2175f73c46e56de0d0.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/vendor/jquery.autosize-min.self-fac5814606a0cca4346f8f1e54a536ce4065aa4e8ccb553af40e29d7cd020a01.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/vendor/json2.self-03248db9715ebd69c96476ee03e84acf396c9ac267e098ad1b8a73d57ddccf18.js?body=1"></script>
+<script src="/assets/jquery-xmleditor/index.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1"></script>
+<script src="/assets/spin.self-2cc907cf48ff9053de63f080f7d53c3e7e557aa736510d107adb144e4665db6c.js?body=1"></script>
+<script src="/assets/timelineJS3.self-072252aa9f0409f0e422c3476bf99bfe796299c01a150eb9cb55cce39bc9c45f.js?body=1"></script>
+<script src="/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1"></script>
+<script src="/assets/jquery-smartwizard/jquery.smartWizard.min.self-585633676ab26cf96f5fe9f40c97677c78e6245ad5589ca27e9ed53e0da74c44.js?body=1"></script>
+<script src="/assets/jstree/jstree.self-d853c92ba6f9f750dbd9697c1a55eff31aae94258e45f8b06de78359f00d12c2.js?body=1"></script>
+<script src="/assets/jquery.treetable.self-6c7eabd37c355bcbb29f778d184e2e917db0f29b97aa3ddb6342c42af5ff1102.js?body=1"></script>
+<script src="/assets/browse_everything/behavior.self-ee8072fa4b623e4547cd612459f4ec6bb965f0843485b3a1bb84ca7386eee11b.js?body=1"></script>
+<script src="/assets/browse_everything.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1"></script>
+<script src="/assets/dri_batch_ingest/create_ingest.self-ae07cc7f8b8b495b04edf566d73ccba09897698de8e494f6e4a8480b4013febe.js?body=1"></script>
+<script src="/assets/dri_batch_ingest/manifest_ingest.self-da49fab3753ee6e1e9fe29777a6277db8df27c00eb3b3cfbe81790f27f7c8e96.js?body=1"></script>
+<script src="/assets/dri_batch_ingest.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1"></script>
+<script src="/assets/dri/timeline.self-d81b35c067e0f25536d0ab4382c87a8cf56dccdde9faf259d47578b9e41a0e91.js?body=1"></script>
+<script src="/assets/dri/forms.self-8fe4a69f705e564f0a035b7d74500b5f26582377f11909bfb7c1e3c4796bfaaf.js?body=1"></script>
+<script src="/assets/dri/spinner.self-df45f77567d65199f5512e0206ec485b90e6d35002b109a581ba503c2810c8fb.js?body=1"></script>
+<script src="/assets/dri/access_controls.self-5a880c327df9ded5864302f5f78b150ca041043766a74a797816b46d334082a7.js?body=1"></script>
+<script src="/assets/dri.self-be96c8f7fa97a16817df4257bfa364afec7a339d3c106034e2a7f57b17084158.js?body=1"></script>
+<script src="/assets/dri/autocomplete_vocabs.self-7eda3d08c0ddaffca8a6589d09dcbaf9d4160954b0a50a83add0703c87942def.js?body=1"></script>
+<script src="/assets/custom.self-32aec70fd2b527b6a7e8e60e789611bcefbf191cfa3ecba86027017101cca6f6.js?body=1"></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async="async" defer="defer"></script>
+    <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "@uppy/core": "https://ga.jspm.io/npm:@uppy/core@3.9.3/lib/index.js",
+    "@transloadit/prettier-bytes": "https://ga.jspm.io/npm:@transloadit/prettier-bytes@0.3.2/dist/prettierBytes.js",
+    "@uppy/store-default": "https://ga.jspm.io/npm:@uppy/store-default@3.2.2/lib/index.js",
+    "@uppy/utils/lib/Translator": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/Translator.js",
+    "@uppy/utils/lib/findDOMElement": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/findDOMElement.js",
+    "@uppy/utils/lib/generateFileID": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/generateFileID.js",
+    "@uppy/utils/lib/getFileNameAndExtension": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/getFileNameAndExtension.js",
+    "@uppy/utils/lib/getFileType": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/getFileType.js",
+    "@uppy/utils/lib/getTextDirection": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/getTextDirection.js",
+    "@uppy/utils/lib/getTimeStamp": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/getTimeStamp.js",
+    "lodash/throttle.js": "https://ga.jspm.io/npm:lodash@4.17.21/throttle.js",
+    "mime-match": "https://ga.jspm.io/npm:mime-match@1.0.2/index.js",
+    "namespace-emitter": "https://ga.jspm.io/npm:namespace-emitter@2.0.1/index.js",
+    "nanoid/non-secure": "https://ga.jspm.io/npm:nanoid@4.0.2/non-secure/index.js",
+    "preact": "https://ga.jspm.io/npm:preact@10.20.0/dist/preact.module.js",
+    "wildcard": "https://ga.jspm.io/npm:wildcard@1.1.2/index.js",
+    "@uppy/dashboard": "https://ga.jspm.io/npm:@uppy/dashboard@3.7.5/lib/index.js",
+    "@uppy/informer": "https://ga.jspm.io/npm:@uppy/informer@3.1.0/lib/index.js",
+    "@uppy/provider-views": "https://ga.jspm.io/npm:@uppy/provider-views@3.10.0/lib/index.js",
+    "@uppy/status-bar": "https://ga.jspm.io/npm:@uppy/status-bar@3.3.0/lib/index.js",
+    "@uppy/thumbnail-generator": "https://ga.jspm.io/npm:@uppy/thumbnail-generator@3.0.8/lib/index.js",
+    "@uppy/utils/lib/FOCUSABLE_ELEMENTS": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/FOCUSABLE_ELEMENTS.js",
+    "@uppy/utils/lib/VirtualList": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/VirtualList.js",
+    "@uppy/utils/lib/dataURItoBlob": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/dataURItoBlob.js",
+    "@uppy/utils/lib/emaFilter": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/emaFilter.js",
+    "@uppy/utils/lib/findAllDOMElements": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/findAllDOMElements.js",
+    "@uppy/utils/lib/getDroppedFiles": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/getDroppedFiles/index.js",
+    "@uppy/utils/lib/isDragDropSupported": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/isDragDropSupported.js",
+    "@uppy/utils/lib/isObjectURL": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/isObjectURL.js",
+    "@uppy/utils/lib/isPreviewSupported": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/isPreviewSupported.js",
+    "@uppy/utils/lib/prettyETA": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/prettyETA.js",
+    "@uppy/utils/lib/remoteFileObjToLocal": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/remoteFileObjToLocal.js",
+    "@uppy/utils/lib/toArray": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/toArray.js",
+    "@uppy/utils/lib/truncateString": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/truncateString.js",
+    "classnames": "https://ga.jspm.io/npm:classnames@2.5.1/index.js",
+    "eventemitter3": "https://ga.jspm.io/npm:eventemitter3@5.0.1/index.mjs",
+    "exifr/dist/mini.esm.mjs": "https://ga.jspm.io/npm:exifr@7.1.3/dist/mini.esm.mjs",
+    "is-shallow-equal": "https://ga.jspm.io/npm:is-shallow-equal@1.0.1/index.js",
+    "lodash/": "https://ga.jspm.io/npm:lodash@4.17.21/",
+    "memoize-one": "https://ga.jspm.io/npm:memoize-one@6.0.0/dist/memoize-one.esm.js",
+    "p-queue": "https://ga.jspm.io/npm:p-queue@7.4.1/dist/index.js",
+    "p-timeout": "https://ga.jspm.io/npm:p-timeout@5.1.0/index.js",
+    "preact/hooks": "https://ga.jspm.io/npm:preact@10.20.0/hooks/dist/hooks.module.js",
+    "@uppy/xhr-upload": "https://ga.jspm.io/npm:@uppy/xhr-upload@3.6.4/lib/index.js",
+    "@uppy/core/lib/": "https://ga.jspm.io/npm:@uppy/core@3.9.3/lib/",
+    "@uppy/utils/lib/NetworkError": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/NetworkError.js",
+    "@uppy/utils/lib/ProgressTimeout": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/ProgressTimeout.js",
+    "@uppy/utils/lib/RateLimitedQueue": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/RateLimitedQueue.js",
+    "@uppy/utils/lib/fileFilters": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/fileFilters.js",
+    "@uppy/utils/lib/isNetworkError": "https://ga.jspm.io/npm:@uppy/utils@5.7.4/lib/isNetworkError.js"
+  }
+}</script>
+
+<script src="/assets/es-module-shims.min.self-a8bbdeead1360c8d91166c37f7b0631666357ea913a632d72cb80acb8563edfc.js?body=1" async="async" data-turbo-track="reload"></script>
+<script type="module">import "application"</script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="1P7cwZttOnWWndTT5-EXDwM5owSE-ZeSxjXcdN02VJr7LLMf-FtsDXqPbrpJexUKcpIfFs3HTm_zttbcVX_xKQ" />
+    
+
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-db7a06b2ec29fd2ef66df318156ea26fab68b35b2574aa830b6a01c075d34d28.ico" />
+    <script type="text/javascript">
+      I18n.locale = "en";
+    </script>
+  </head>
+
+
+  <body>
+    <div id="dri_wrapper_id" class="block1 dri_wrapper">
+    	<div class="modal fade" id="dri_advanced_search_modal_id">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">
+          Advanced Search
+        </h2>
+        <button type="button" class="dri-btn-close" data-bs-dismiss="modal" aria-hidden="true" aria-label="close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="advanced form-horizontal" action="/catalog" accept-charset="UTF-8" method="get">
+          <input type="hidden" name="mode" value="collections" autocomplete="off" />
+          <div class="input-criteria">
+  <div class="query-criteria">
+    <p class="query-criteria-heading" label="select">
+      Find items that match <select name="op" id="op" class="input-small"><option value="AND">all</option>
+<option value="OR">any</option></select> of
+    </p>
+    <div id="advanced_search">
+        <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="all_fields">All Fields</label>
+    <div class="col-sm-9">
+      <input type="text" name="all_fields" id="all_fields" class="form-control" />
+    </div>
+  </div>
+</div>
+  <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="title">Titles</label>
+    <div class="col-sm-9">
+      <input type="text" name="title" id="title" class="form-control" />
+    </div>
+  </div>
+</div>
+  <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="subject">Subjects</label>
+    <div class="col-sm-9">
+      <input type="text" name="subject" id="subject" class="form-control" />
+    </div>
+  </div>
+</div>
+  <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="description">Descriptions</label>
+    <div class="col-sm-9">
+      <input type="text" name="description" id="description" class="form-control" />
+    </div>
+  </div>
+</div>
+  <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="creator">Creators</label>
+    <div class="col-sm-9">
+      <input type="text" name="creator" id="creator" class="form-control" />
+    </div>
+  </div>
+</div>
+  <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="contributor">Contributors</label>
+    <div class="col-sm-9">
+      <input type="text" name="contributor" id="contributor" class="form-control" />
+    </div>
+  </div>
+</div>
+  <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="publisher">Publishers</label>
+    <div class="col-sm-9">
+      <input type="text" name="publisher" id="publisher" class="form-control" />
+    </div>
+  </div>
+</div>
+  <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="person">Names</label>
+    <div class="col-sm-9">
+      <input type="text" name="person" id="person" class="form-control" />
+    </div>
+  </div>
+</div>
+  <div class="row g-3 align-items-center">
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 col-form-label" for="place">Places</label>
+    <div class="col-sm-9">
+      <input type="text" name="place" id="place" class="form-control" />
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+          <hr>
+          <div class="advanced-submit-buttons clearfix">
+  <div class='submit-buttons float-end'>
+    <input type="hidden" name="search_field" id="search_field" value="advanced" autocomplete="off" />
+
+    <a onclick="clearAdvancedForm(&#39;#dri_advanced_search_modal_id&#39;)" class="dri_button_black btn-default advanced-search-start-over dri_help_popover_slow" data-bs-content="Clear the current search settings" data-bs-title="Start Over" data-bs-placement="left" data-bs-trigger="hover" href="#">Start Over</a>
+
+    <input type="submit" name="commit" value="Search" class="dri_button_black btn-default advanced-search-submit dri_help_popover_slow" id="advanced-search-submit" data-bs-content="Start a search with the current settings" data-bs-title="Search" data-bs-placement="left" data-bs-trigger="hover" data-disable-with="Search" />
+  </div>
+</div>
+
+</form>      </div>
+    </div>
+  </div>
+</div>
+
+    	<!-- Header to be displayed to users -->
+<header id="dri_header_container_id" class="dri_header_container">
+<a aria-label="DRI home page" href="https://www.dri.ie/">
+    <div id="dri_ident_id" class="dri_ident"></div>
+</a>
+
+<div id="dri_social_media_container_id"
+class="dri_social_media_container">
+	<nav id="dri_social_media_nav_id" class="dri_social_media_nav" >
+		<a id="follow_bluesky" target="_blank" class="social_media_icon" href="https://bsky.app/profile/dri.ie">
+			<i class="fa-brands fa-square-bluesky"></i>
+			<span class="visually-hidden">bluesky</span>
+</a>		<a id="follow_facebook" target="_blank" class="social_media_icon" href="https://www.facebook.com/digitalrepositoryireland">
+			<i class="fa-brands fa-square-facebook"></i>
+			<span class="visually-hidden">facebook</span>
+</a>		<a id="follow_vimeo" target="_blank" class="social_media_icon" href="https://vimeo.com/digitalrepositoryireland">
+			<i class="fa-brands fa-vimeo"></i>
+			<span class="visually-hidden">vimeo</span>
+</a>		<a id="https://www.slideshare.net/dri_ireland" target="_blank" class="social_media_icon" href="https://www.slideshare.net/dri_ireland">
+			<i class="fa-brands fa-slideshare"></i>
+			<span class="visually-hidden">slideshare</span>
+</a>        <a id="https://instagram.com/dri_ireland" target="_blank" class="social_media_icon" href="https://instagram.com/dri_ireland">
+          <i class="fa-brands fa-instagram"></i>
+          <span class="visually-hidden">instagram</span>
+</a>	</nav>
+</div>
+
+<div class="dri_authentication_search_container">
+    <nav id="dri_account_nav_id" class="dri_account_nav mb-2">
+
+    <div class="account_container">
+    
+  <ul class="dropdown dri_language_links">
+    <li>
+
+      <a data-bs-toggle="dropdown" href="#">
+        English <i class="fa fa-sml fa-caret-down"></i> 
+</a>
+      <ul class="dropdown-menu">
+        <li><a href="/session/ga?path=%2Fcatalog%3Fmode%3Dcollections%26search_field%3Dall_fields">Gaeilge</a></li>
+      </ul>
+      
+    </li>
+  </ul>
+
+
+
+      <a id="view_account" href="/user_groups/profile">
+          <i class="fa fa-user"></i>
+          <span class="visually-hidden"> Repository User Profile</span>
+</a>    </div>
+  </nav>
+  <!-- close dri_account_nav -->
+
+  <form id="searchform" class="dri_search_term_input_form" action="/catalog" accept-charset="UTF-8" method="get">
+  <label for="search_field" class="visually-hidden">Search in</label>
+  <div class="input-group mt-2 dri-search-input-group">
+    <select name="search_field" id="search_field" title="Targeted search options" class="dri_select"><option selected="selected" value="all_fields">All Fields</option>
+<option value="title">Titles</option>
+<option value="subject">Subjects</option>
+<option value="person">Names</option>
+<option value="place">Places</option></select>
+
+
+    <input type="hidden" name="mode" value="collections" autocomplete="off" />
+    <!-- ID for the search box of 'q_text', to distinguish from date range search when rendering filter constraints in the UI -->
+    <label for="q" class="visually-hidden">Search</label>
+    <input type="text" name="q" id="q" class="dri_search_term_text_input dri_help_popover_slow" data-bs-content="Type a search term and press Enter. Use AND and OR to narrow or broaden your search" data-bs-title="Search the repository" data-bs-trigger="hover" data-placement="left" />
+    <div class="input-group-append">
+      <button type="submit" class="dri_search_term_text_submit_button dri_no_display" id="search">
+        Ok
+      </button>
+    </div>
+  </div>
+</form><!-- end form -->
+<!-- close dri_search_term_input_form -->
+ 
+<a data-bs-target="#dri_advanced_search_modal_id" data-bs-toggle="modal" id="advanced_search_button" href="">+ More options</a>
+</div>
+
+</header><!-- close dri_header_container -->
+
+<!-- Needed for print styling -->
+<div id="dri_ident_print" class="dri_ident_print dri_no_display">
+  <img alt="DRI Logo" src="/assets/dri/dri_ident-a8e9f8ea13186d92069696d0bb4e785800cf32d30f41b50c49462b0af8570a24.png" />
+</div>
+
+<nav id="dri_main_nav_id" class="dri_main_nav_new navbar navbar-default navbar-expand-lg">
+	<div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dri-navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="dri-navbar-collapse">
+			<ul class="navbar-nav dri_uppercase">
+			      <li>
+<a id="dri_home_id" href="https://www.dri.ie/">DRI Website</a>
+</li>
+
+  <li class="dropdown dri_dropdown active">
+
+  <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="dri-browse-menu">DRI Repository <span class="caret"></span></a>
+  <ul id="dri-browse-menu" class="dropdown-menu collapse">
+      <li class="active">
+        <a id="browse" aria-current="page" href="/catalog?mode=collections&amp;search_field=all_fields">Browse by Data &amp; Collections</a>
+      </li>
+
+      <li>
+        <a id="institutions" href="/organisations">Browse by Organisation</a>
+      </li>
+  </ul>
+</li>
+
+<li class="dropdown dri_dropdown">
+  <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-controls="dri-deposit-menu" aria-expanded="false">Deposit <span class="caret"></span></a>
+  <ul id="dri-deposit-menu" class="dropdown-menu collapse">
+    <li>
+      <a href="https://dri.ie/deposit">How to Deposit</a>
+    </li>
+
+    <li>
+      <a href="https://dri.ie/dri-membership">DRI Membership</a>
+    </li>
+
+    <li>
+      <a href="https://dri.ie/community-archive-scheme">Community Archive Scheme</a>
+    </li>
+  </ul>
+</li>
+
+
+    <li>
+<a id="workspace" href="/workspace">Workspace</a>
+</li>
+<li>
+  <a id="guides" target="_blank" href="https://guides.dri.ie">User Guides</a>
+</li>
+
+
+			  
+<li class="dropdown dri_dropdown d-sm-none">
+
+	<a href="#" id="dri_manage_id" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-controls="language-dropdown" class="dropdown-toggle">Language <span class="caret"></span></a>
+	
+	<ul class="dropdown-menu" role="menu">
+		<li class="active" role="presentation">
+			<a aria-current="page English" role="menuitem">English</a>
+		</li>
+		<li role="presentation">
+			<a id="ga" href="/session/ga?path=%2Fcatalog%3Fmode%3Dcollections%26search_field%3Dall_fields">Gaeilge</a>
+		</li>
+	</ul>
+</li>
+
+
+		      <li class="d-sm-none">
+		            <a rel="nofollow" data-method="delete" href="/user_groups/users/sign_out">Log Out</a>
+		      </li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+
+  <!-- start dri_crumbtrail_nav_container -->
+
+<!-- close dri_crumbtrail_nav_container -->
+
+  <!-- container for search, sort and pagination etc. navigations and search text input -->
+<div id="dri_search_features_nav_container_id" class="dri_search_features_nav_container">
+        <!-- navigation to allow the user to determine how the search result are sorted e.g. by relevance, A to Z, Z to A -->
+  <nav id="dri_sort_nav_id" class="dri_sort_nav" data-bs-content="Select from this list to sort your results by date, title, relevance or sequence. Relevance is the system&#39;s best guess as to which collections or objects are most relevant to your search"  data-bs-title="Search Sort Options" data-bs-trigger="hover" data-bs-placement="right">
+  <div id="dri_sort_options_id" class="btn-group sort-dropdown">
+  <button name="button" type="submit" class="btn btn-outline-secondary dropdown-toggle" aria-expanded="false" data-toggle="dropdown" data-bs-toggle="dropdown">Sort<span class="d-none d-sm-inline"> by Newest</span><span class="caret"></span></button>
+
+  <div class="dropdown-menu" role="menu">
+      <a class="dropdown-item active" role="menuitem" aria-current="page" href="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=published_at_dttsi+desc">Newest</a>
+      <a class="dropdown-item " role="menuitem" href="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=title_sorted_ssi+asc">Title (A-Z)</a>
+      <a class="dropdown-item " role="menuitem" href="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=title_sorted_ssi+desc">Title (Z-A)</a>
+      <a class="dropdown-item " role="menuitem" href="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=id_asset_ssi+asc%2C+system_create_dtsi+desc">Order/sequence</a>
+      <a class="dropdown-item " role="menuitem" href="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=score+desc%2C+title_sorted_ssi+asc">Relevance</a>
+  </div>
+</div>
+
+  </nav>
+
+     <!-- navigation to allow the user to determine how the search result is displayed e.g. number of items output  -->
+<nav id="dri_pager_nav_id" class="dri_sort_nav" data-bs-content="Select from this list to choose the number of items shown on each page"  data-bs-title="Items per Page" data-bs-trigger="hover" data-bs-placement="right">
+  <span class="sr-only visually-hidden">Number of results to display per page</span>
+  <div id="dri_page_options_id" class="btn-group per_page-dropdown">
+  <button name="button" type="submit" class="btn btn-outline-secondary dropdown-toggle" aria-expanded="false" data-toggle="dropdown" data-bs-toggle="dropdown">12<span class="sr-only visually-hidden"> per page</span><span class="d-none d-sm-inline"> results per page</span><span class="caret"></span></button>
+
+  <div class="dropdown-menu" role="menu">
+      <a class="dropdown-item active" role="menuitem" aria-current="page" href="/catalog?mode=collections&amp;per_page=12&amp;search_field=all_fields">12<span class="sr-only visually-hidden"> per page</span></a>
+      <a class="dropdown-item " role="menuitem" href="/catalog?mode=collections&amp;per_page=24&amp;search_field=all_fields">24<span class="sr-only visually-hidden"> per page</span></a>
+      <a class="dropdown-item " role="menuitem" href="/catalog?mode=collections&amp;per_page=36&amp;search_field=all_fields">36<span class="sr-only visually-hidden"> per page</span></a>
+      <a class="dropdown-item " role="menuitem" href="/catalog?mode=collections&amp;per_page=48&amp;search_field=all_fields">48<span class="sr-only visually-hidden"> per page</span></a>
+  </div>
+</div>
+</nav>
+
+  <nav id="dri_display_grid_table_id" class="dri_sort_nav">
+
+	<div class="dri_change_sort_view" id="dri_change_sort_view_id" data-bs-content="Use these buttons to select between a Grid, Tabular, Timeline or Map layout for your search result"  data-bs-title="Search Result Layout" data-bs-trigger="hover" data-bs-placement="top">
+
+		  <i class="fa fa-th dri_icon_border"></i>
+		  <a id="table_view" href="/catalog?mode=collections&amp;search_field=all_fields&amp;view=list">
+		    <i class="fa fa-list dri_icon_border"></i>
+		    <span class="visually-hidden">View results as list</span>
+</a>		    <a id="timeline_view" href="/catalog?mode=collections&amp;search_field=all_fields&amp;view=timeline">
+		      <i class="fa fa-regular fa-clock dri_icon_border"></i>
+              <span class="visually-hidden">View results on time line</span>
+</a>		    <a id="maps_view" href="/catalog?mode=collections&amp;search_field=all_fields&amp;view=maps">
+		      <i class="fa fa-solid fa-location-dot dri_icon_border"></i>
+              <span class="visually-hidden">View results on map</span>
+</a>
+	</div>
+</nav>
+
+
+      <div id="dri_search_save_input_id" class="dri_sort_nav">
+      <form class="button_to" method="post" action="/saved_searches/save"><input type="hidden" name="_method" value="put" autocomplete="off" /><button class="dri_search_save_submit_button" id="save_search" type="submit">Save Current Search</button><input type="hidden" name="authenticity_token" value="oKTzzcMFksrpLSSHMW72Q90yHzgXRcy3oXikIwmLwGAoiu7qa7S9Q7bJbZ6x9F_AkEa0J9j6tdbTj2pzKuvKHQ" autocomplete="off" /></form>
+    </div>
+
+  
+
+
+
+  
+</div>
+<!-- close dri_search_features_nav_container -->
+
+
+    	<div id="blacklight-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-turbo="false">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+          </div>
+        </div>
+      </div>
+
+
+    	  
+<!-- system messages container -->
+
+<div id="dri_messages_container_id" class="dri_messages_container dri_clearfix">
+</div>
+
+<!-- close dri_messages_container -->
+
+    
+        <h1 class="visually-hidden top-content-title">Search</h1>
+        <h2 class="visually-hidden">Search Results</h2>
+        <div class="dri_facet_restrictions_container">
+		<ul id="dri_browse_sort_tabs" class="dri_browse_sort_tabs dri_search_tab_container" >
+
+				<li id="dri_browse_sort_tabs_collections_id", class="dri_search_tab"
+				data-bs-content="Use this tab to search for Collections"
+				data-bs-title="Collections Search"
+				data-bs-trigger="hover"
+				data-bs-placement="auto right">
+					<a id="collections" class="dri_help_popover_slow selected" href="/catalog?mode=collections&amp;search_field=all_fields&amp;show_subs=false">Collections</a>
+				</li>
+
+				<li id="dri_browse_sort_tabs_sub_collections_id", class="dri_search_tab"
+				data-bs-content="Use this tab to toggle Sub-Collections in your search"
+				data-bs-title="Sub-Collections Search"
+				data-bs-trigger="hover"
+				data-bs-placement="auto right">
+				<a id="sub_collections" class="dri_help_popover_slow" href="/catalog?mode=collections&amp;search_field=all_fields&amp;show_subs=true">Sub-Collections</a>
+				</li>
+
+				<li id="dri_browse_sort_tabs_objects_id", class="dri_search_tab"
+				data-bs-content="Use this tab to search for Objects"
+				data-bs-title="Objects Search"
+				data-bs-trigger="hover"
+				data-bs-placement="auto right">
+					<a id="objects" class="dri_help_popover_slow" href="/catalog?mode=objects&amp;search_field=all_fields&amp;show_subs=false">Objects</a>
+				</li>
+
+			<li class="dri_pagination_search"> 
+					      <nav id="dri_pagination_nav_id" class="dri_pagination_nav" aria-label="Navigation">
+  <ul id="dri_pagination_nav_links_id" class="dri_pagination_nav_links" data-bs-content="Use these links to move through your search results. You can change the number of pages selecting more or fewer items per page"  data-bs-title="Result Pagination" data-bs-trigger="hover" data-bs-placement="left">
+    
+
+  </ul>
+  <span class="page-entries d-none d-sm-block"><b>1</b> - <b>6</b> of <b>6</b> results</span>
+</nav>
+
+<!-- object to object pagination -->
+
+			</li>
+			
+		</ul>
+</div>
+
+<!-- close dri_facet_restrictions_container -->
+
+
+      <div class="dri_main_content_container">
+    	  
+<!--overides view params if missing-->
+
+
+
+
+
+
+<div id="dri_second_navigation_container_id" class="dri_second_navigation_container">
+  <!-- facet block -->
+
+  <div class="dri_facet_filters_block" id="sidebar">
+      <div id="facets" class="facets sidenav dri_facet_filters dropdown" data-bs-content="Use Facets to narrow your search using specific metadata fields" title="Facet Filters" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="top">
+	  <div class= "panel-heading">
+		<h3 class="dri_head_title">
+			<a class="dropdown-toggle" data-bs-toggle="collapse" href="#facet-panel-collapse" aria-expanded="false" aria-controls="Collapse Facets" > Refine your search
+				<span class="dri_search_num" id="browse_results_count">6</span>
+			</a>
+		</h3>
+	  </div>
+    <div id="facet-panel-collapse" class="panel-group facet-non-md collapse in show" aria-expanded="false" role="button">
+	    <div class="panel panel-default facet_limit blacklight-licence_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-bs-toggle="collapse" data-bs-target="#facet-licence_sim">
+    <h4 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Reuse Licence</a>
+    </h4>
+  </div>
+  <div id="facet-licence_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+          
+    <ul class="facet-values list-unstyled">
+      <li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=all+rights+reserved&amp;mode=collections&amp;search_field=all_fields">all rights reserved (3)</a></li><li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=cc0&amp;mode=collections&amp;search_field=all_fields">cc0 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=cc-by&amp;mode=collections&amp;search_field=all_fields">cc-by (1)</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default facet_limit blacklight-copyright_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-bs-toggle="collapse" data-bs-target="#facet-copyright_sim">
+    <h4 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Copyright</a>
+    </h4>
+  </div>
+  <div id="facet-copyright_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+          
+    <ul class="facet-values list-unstyled">
+      <li><a class="facet_select" href="/catalog?f%5Bcopyright_sim%5D%5B%5D=in+copyright&amp;mode=collections&amp;search_field=all_fields">in copyright (2)</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default facet_limit blacklight-person_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-bs-toggle="collapse" data-bs-target="#facet-person_sim">
+    <h4 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Names</a>
+    </h4>
+  </div>
+  <div id="facet-person_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+          
+    <ul class="facet-values list-unstyled">
+      <li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=sdfsd&amp;mode=collections&amp;search_field=all_fields">sdfsd (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=fsdfs&amp;mode=collections&amp;search_field=all_fields">fsdfs (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=sdf&amp;mode=collections&amp;search_field=all_fields">sdf (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=sfsd&amp;mode=collections&amp;search_field=all_fields">sfsd (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=test&amp;mode=collections&amp;search_field=all_fields">test (1)</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default facet_limit blacklight-file_type_display_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-bs-toggle="collapse" data-bs-target="#facet-file_type_display_sim">
+    <h4 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Mediatype</a>
+    </h4>
+  </div>
+  <div id="facet-file_type_display_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+          
+    <ul class="facet-values list-unstyled">
+      <li><a class="facet_select" href="/catalog?f%5Bfile_type_display_sim%5D%5B%5D=collection&amp;mode=collections&amp;search_field=all_fields">collection (6)</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default facet_limit blacklight-institute_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-bs-toggle="collapse" data-bs-target="#facet-institute_sim">
+    <h4 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Organisation</a>
+    </h4>
+  </div>
+  <div id="facet-institute_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+          
+    <ul class="facet-values list-unstyled">
+      <li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=last_test_institute&amp;mode=collections&amp;search_field=all_fields">last_test_institute (2)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=legacy+data+deposit+pilot&amp;mode=collections&amp;search_field=all_fields">legacy data deposit pilot (2)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=other_test_institute&amp;mode=collections&amp;search_field=all_fields">other_test_institute (2)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=potato&amp;mode=collections&amp;search_field=all_fields">potato (2)</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default facet_limit blacklight-root_collection_id_ssi ">
+  <div class="collapsed collapse-toggle panel-heading" data-bs-toggle="collapse" data-bs-target="#facet-root_collection_id_ssi">
+    <h4 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Collection</a>
+    </h4>
+  </div>
+  <div id="facet-root_collection_id_ssi" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+          
+    <ul class="facet-values list-unstyled">
+      <li><a class="facet_select" href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=0k225b04p&amp;mode=collections&amp;search_field=all_fields">test collection with aggregation (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=2r36tx526&amp;mode=collections&amp;search_field=all_fields">twin it! test (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=5425k968s&amp;mode=collections&amp;search_field=all_fields">test new aggregation changes (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=h989r3203&amp;mode=collections&amp;search_field=all_fields">test tp data (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=ms35t860f&amp;mode=collections&amp;search_field=all_fields">test no aggregation (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=xg94hp52v&amp;mode=collections&amp;search_field=all_fields">testing aggregation audio (1)</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default facet_limit blacklight-visibility_ssi ">
+  <div class="collapsed collapse-toggle panel-heading" data-bs-toggle="collapse" data-bs-target="#facet-visibility_ssi">
+    <h4 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Data Access</a>
+    </h4>
+  </div>
+  <div id="facet-visibility_ssi" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+          
+    <ul class="facet-values list-unstyled">
+      <li><a class="facet_select" href="/catalog?f%5Bvisibility_ssi%5D%5B%5D=public&amp;mode=collections&amp;search_field=all_fields">public (5)</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+</div>
+
+	  </div>
+  </div>
+
+  </div>
+  <!-- close facet block -->
+</div>
+<div id="dri_result_container_id" class="dri_result_container">
+            <article class="block5" id="xg94hp52v">
+  <div class="dri_content_block_collection">
+
+      <a data-context-href="/catalog/xg94hp52v/track?counter=1&amp;document_id=xg94hp52v" data-turbo-prefetch="false" href="/catalog/xg94hp52v">
+        <div class="dri_collection_link">
+          
+          <div class="dri_collection_image">
+                <img alt="default collection cover image" src="/assets/no_image-3ee61aec2d8f596da7c214302d496402a8761fe109ce210cd56b83d0d6a0af9a.png" />
+          </div>
+          <!-- close image -->
+          <h3>testing aggregation audio</h3>
+            <p class="dri_publishing_institute">
+                  last_test_institute
+            </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=xg94hp52v&amp;mode=objects&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (1)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="5425k968s">
+  <div class="dri_content_block_collection">
+
+      <a data-context-href="/catalog/5425k968s/track?counter=2&amp;document_id=5425k968s" data-turbo-prefetch="false" href="/catalog/5425k968s">
+        <div class="dri_collection_link">
+          
+          <div class="dri_collection_image">
+                <img alt="default collection cover image" src="/assets/no_image-3ee61aec2d8f596da7c214302d496402a8761fe109ce210cd56b83d0d6a0af9a.png" />
+          </div>
+          <!-- close image -->
+          <h3>Test new aggregation changes</h3>
+            <p class="dri_publishing_institute">
+                  
+            </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=5425k968s&amp;mode=objects&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (1)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="2r36tx526">
+  <div class="dri_content_block_collection">
+
+      <a data-context-href="/catalog/2r36tx526/track?counter=3&amp;document_id=2r36tx526" data-turbo-prefetch="false" href="/catalog/2r36tx526">
+        <div class="dri_collection_link">
+          
+          <div class="dri_collection_image">
+                <img alt="default collection cover image" src="/assets/no_image-3ee61aec2d8f596da7c214302d496402a8761fe109ce210cd56b83d0d6a0af9a.png" />
+          </div>
+          <!-- close image -->
+          <h3>Twin It! test</h3>
+            <p class="dri_publishing_institute">
+                  Legacy Data Deposit Pilot
+            </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=2r36tx526&amp;mode=objects&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (1)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="h989r3203">
+  <div class="dri_content_block_collection">
+
+      <a data-context-href="/catalog/h989r3203/track?counter=4&amp;document_id=h989r3203" data-turbo-prefetch="false" href="/catalog/h989r3203">
+        <div class="dri_collection_link">
+          
+          <div class="dri_collection_image">
+                <img alt="default collection cover image" src="/assets/no_image-3ee61aec2d8f596da7c214302d496402a8761fe109ce210cd56b83d0d6a0af9a.png" />
+          </div>
+          <!-- close image -->
+          <h3>Test TP Data</h3>
+            <p class="dri_publishing_institute">
+                  other_test_institute
+            </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=h989r3203&amp;mode=objects&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (4)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="ms35t860f">
+  <div class="dri_content_block_collection">
+
+      <a data-context-href="/catalog/ms35t860f/track?counter=5&amp;document_id=ms35t860f" data-turbo-prefetch="false" href="/catalog/ms35t860f">
+        <div class="dri_collection_link">
+          
+          <div class="dri_collection_image">
+                <img alt="default collection cover image" src="/assets/no_image-3ee61aec2d8f596da7c214302d496402a8761fe109ce210cd56b83d0d6a0af9a.png" />
+          </div>
+          <!-- close image -->
+          <h3>Test no aggregation</h3>
+            <p class="dri_publishing_institute">
+                  other_test_institute
+            </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=ms35t860f&amp;mode=objects&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (1)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="0k225b04p">
+  <div class="dri_content_block_collection">
+
+      <a data-context-href="/catalog/0k225b04p/track?counter=6&amp;document_id=0k225b04p" data-turbo-prefetch="false" href="/catalog/0k225b04p">
+        <div class="dri_collection_link">
+          
+          <div class="dri_collection_image">
+                <img alt="default collection cover image" src="/assets/no_image-3ee61aec2d8f596da7c214302d496402a8761fe109ce210cd56b83d0d6a0af9a.png" />
+          </div>
+          <!-- close image -->
+          <h3>Test collection with aggregation</h3>
+            <p class="dri_publishing_institute">
+                  last_test_institute
+            </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_ssi%5D%5B%5D=0k225b04p&amp;mode=objects&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (1)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+
+&nbsp;
+</div><!-- close dri_result_container -->
+
+
+    	</div>
+      <div class="dri_search_features_nav_container dri_clearfix">
+          <nav id="dri_pagination_nav_id" class="dri_pagination_nav" aria-label="Navigation">
+  <ul id="dri_pagination_nav_links_id" class="dri_pagination_nav_links" data-bs-content="Use these links to move through your search results. You can change the number of pages selecting more or fewer items per page"  data-bs-title="Result Pagination" data-bs-trigger="hover" data-bs-placement="left">
+    
+
+  </ul>
+  <span class="page-entries d-none d-sm-block"><b>1</b> - <b>6</b> of <b>6</b> results</span>
+</nav>
+
+    	</div>
+    	<!-- close dri_main_content_container -->
+      <footer id="dri_main_footer_id" class="dri_main_footer">
+
+  <div id="dri_footer_address_id" class="dri_footer_address">
+    Digital Repository of Ireland<br/>
+    Royal Irish Academy<br/>
+    19 Dawson Street<br/>
+    Dublin 2<br/>
+    Email 
+    <a id="contact_email" href="mailto:dri@ria.ie">dri@ria.ie</a><br/><br/>
+      Revision e793d0f1@development
+
+  </div>
+
+  <div id="dri_footer_dsa_logo_id" class="dri_footer_dsa_logo mt-3 d-none d-md-block">
+     <a id="dsa_link" target="_blank" href="https://www.coretrustseal.org/">
+      <img alt="Core Trust Seal logo" src="/assets/dri/home/CoreTrustSeal-logo_60x60-b5e0b2a023fd64c30dbed47356200a6fef1a8a0dfb083fe177798b48ee1cade7.png" />
+</a>  </div>
+
+  <div id="dri_footer_ror_logo_id" class="dri_footer_ror_logo mt-3 d-none d-md-block">
+     <a id="ror_link" target="_blank" href="https://ror.org/034d7ma87">
+      <img alt="ROR logo" src="/assets/dri/home/ror-icon-rgb-688b61e7ff9a601ef2c759ecc2333a5e01c0156e9dbc9739921911f648560993.svg" />
+</a>  </div>
+
+  <nav id="dri_main_footer_navigation_id"
+       class="dri_main_footer_navigation">
+    <ul id="dri_main_footer_navigation_links_id"
+        class="dri_main_footer_navigation_links">
+      <li>
+        <span> <a id="end_user_agreement" class="muted" href="/pages/terms">End User Agreement</a> </span>
+      </li>
+      <li>
+        <span> <a id="cookie_settings" class="muted" data-cc="show-preferencesModal" href="#">Cookie Settings</a> </span>
+      </li>
+      <li>
+        <span> <a id="privacy_statement" class="muted" href="https://dri.ie/dri-privacy-statement">Privacy Statement</a> </span>
+      </li>
+      <li>
+        <span> <a id="licensing_statement" class="muted" href="https://dri.ie/licensing-statement">Licensing Statement</a> </span>
+      </li>
+      <li>
+        <span> <a id="dri_footer_help" class="muted" href="https://dri.ie/general-faq">FAQ</a> </span>
+      </li>
+    </ul>
+
+    <div class="dri_funder_institutes" id="dri_funder_institutes_id">
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+        <img alt="Funded by logo" src="/assets/dri/home/FunderLogos_HEA-09f6e9d34193419273978618e95223cd6328ed97f8cfb5a8b810674b8c09ade7.png" />
+    </div>
+
+  </nav>
+
+
+</footer>
+<!-- close dri_main_footer_id -->
+
+    </div><!-- close dri_wrapper -->
+    <script src="/assets/cookieconsent-config.self-d55173ed6dfc91ee33b6a3c84ca2711783b945eef8c4721e22201d1685afba18.js?body=1" type="module"></script>
+  </body>
+</html>
